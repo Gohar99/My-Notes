@@ -5,7 +5,7 @@ import io.realm.RealmObject;
 public class Notice extends RealmObject {
 
     String title  , note ;
-    //password ;
+    //next day testing
 
 
     public  String getTitle() {
