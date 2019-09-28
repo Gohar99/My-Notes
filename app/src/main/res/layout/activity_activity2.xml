@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNote"
+    android:background="#f5fffa"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/My"
+        android:text="My Note"
+        android:textColor="#000"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/My"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:hint="Title"
+        android:id="@+id/title"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+
+        android:layout_marginLeft="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit"
+        android:hint=" Title"
+        android:textColor="#000"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:singleLine="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note"
+        android:hint="Note"
+        android:id="@+id/note"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:maxLines="1"
+        android:layout_marginLeft="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit1"
+        android:hint=" Note"
+        android:textColor="#000"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:textSize="16sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:background="@drawable/shape"
+        android:textColor="#fffaf9"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"
+
+        />
+    </LinearLayout>
+</RelativeLayout>
